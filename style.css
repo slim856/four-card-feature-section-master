@@ -1,0 +1,152 @@
+body{
+    width: 100%;
+    font-family: 'Roboto';
+    background-color: #fafafa;
+    margin: 0;
+}
+.reliable{
+    font-family: 'Roboto';
+    font-size: 35px;
+    font-weight: lighter;
+    text-align: center;
+    margin-bottom: 0;
+}
+.tech{
+    text-align: center;
+    margin-top: 0;
+}
+.ai{
+    text-align: center;
+    padding: 0 200px;
+    margin: 0 250px;
+}
+.container{
+    background-color: white;
+    width: 300px;
+    height: 200px;
+    padding: 20px;
+    margin: 40px 15px;
+    box-shadow: 0px 10px 15px -5px #a3a5ae;    
+}
+.icons{
+    padding: 5px;
+    text-align: right;
+}
+.supervisor{
+    border-top: solid #00ffff;
+    border-radius: 5px;
+}
+.team{
+    border-top: solid #ff0000;
+    border-radius: 5px;
+}
+.karma{
+    border-top: solid #ffa600;
+    border-radius: 5px;
+}
+.calculator{
+    border-top: solid #0000ff;
+    border-radius: 5px;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Media Query */
+@media screen and (max-width: 1207px){
+    .ai{
+        text-align: center;
+        padding: 0 150px;
+        margin: 0 200px;
+    }
+}
+@media screen and (max-width: 1099px){
+    .container{
+        width: 250px;
+        height: 150px;
+    }
+    .icons{
+        padding: -20px;
+    }
+    img{
+        width: 40px;
+    }
+    .container h3{
+        font-size: 18px;
+        margin-top: 5px;
+    }
+    .container p{
+        font-size: 15px;
+    }
+}
+@media screen and (max-width: 985px){
+    .ai{
+        padding: 0 100px;
+        margin: 0 150px;
+    }
+}
+@media screen and (max-width: 931px){
+    .container{
+        width: 220px;
+        height: 120px;
+    }
+    .icons{
+        padding: -20px;
+    }
+    img{
+        width: 40px;
+    }
+    .container h3{
+        font-size: 15px;
+        margin-top: 0px;
+    }
+    .container p{
+        font-size: 12px;
+    }
+}
+@media screen and (max-width: 375px){
+    html,body{
+        width: 100%;
+    }
+    .reliable{
+        font-family: 'Roboto';
+        font-size: 26px;
+        font-weight: lighter;
+        text-align: center;
+        margin-bottom: 0;
+    }
+    .tech{
+        text-align: center;
+        font-size: 26px;
+        margin-top: 0;
+    }
+    .ai{
+        text-align: center;
+        font-size: 14px;
+        padding: 0 20px;
+        margin: 0 20px 40px 0;
+    }
+    .container{
+        margin: 30px 0 0 0;
+        width: 250px;
+        height: 150px;
+    }
+    .container h3{
+        font-size: 18px;
+        margin-top: 5px;
+    }
+    .container p{
+        font-size: 15px;
+    }
+    .grid-container{
+        display: grid;
+        grid-template-columns: auto;
+    }
+    .attribution{
+        margin-top: 50px;
+        font-size: 10px;
+    }
+}
